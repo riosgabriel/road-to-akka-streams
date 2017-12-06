@@ -29,5 +29,5 @@ object TryGraphDSLWithBroadCast extends App {
     bcast.out(1) ~> minusOne ~> s2.in
 
     ClosedShape
-  })
+  }).run()
 }
