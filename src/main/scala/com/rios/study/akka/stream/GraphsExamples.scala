@@ -5,7 +5,7 @@ import akka.stream.scaladsl.{Flow, Keep, RunnableGraph, Sink, Source, UnzipWith}
 
 import scala.concurrent.{Future, Promise}
 
-object Main extends App {
+object GraphsExamples {
 
   val source = Source(1 to 10)
 
