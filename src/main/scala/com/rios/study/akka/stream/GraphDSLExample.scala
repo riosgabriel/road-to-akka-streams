@@ -2,8 +2,8 @@ package com.rios.study.akka.stream
 
 import akka.NotUsed
 import akka.actor.ActorSystem
-import akka.stream.{ActorMaterializer, ClosedShape}
-import akka.stream.scaladsl.{Broadcast, Flow, GraphDSL, Merge, RunnableGraph, Sink, Source}
+import akka.stream.scaladsl.{ Broadcast, Flow, GraphDSL, Merge, RunnableGraph, Sink, Source }
+import akka.stream.{ ActorMaterializer, ClosedShape }
 
 object GraphDSLExample extends App {
 

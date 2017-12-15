@@ -1,9 +1,9 @@
 package com.rios.study.akka.stream
 
-import akka.actor.Cancellable
-import akka.stream.scaladsl.{Flow, Keep, RunnableGraph, Sink, Source, UnzipWith}
+import scala.concurrent.{ Future, Promise }
 
-import scala.concurrent.{Future, Promise}
+import akka.actor.Cancellable
+import akka.stream.scaladsl.{ Flow, Keep, RunnableGraph, Sink, Source }
 
 object GraphsExamples {
 

@@ -1,8 +1,8 @@
 package com.rios.study.akka.stream
 
 import akka.actor.ActorSystem
-import akka.stream.{ActorMaterializer, ClosedShape}
-import akka.stream.scaladsl.{Broadcast, Flow, GraphDSL, RunnableGraph, Sink, Source}
+import akka.stream.scaladsl.{ Broadcast, Flow, GraphDSL, RunnableGraph, Sink, Source }
+import akka.stream.{ ActorMaterializer, ClosedShape }
 
 object TryFanOut extends App {
 
