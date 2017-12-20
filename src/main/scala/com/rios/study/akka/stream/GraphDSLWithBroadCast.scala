@@ -4,7 +4,7 @@ import akka.actor.ActorSystem
 import akka.stream.scaladsl.{ Broadcast, Flow, GraphDSL, RunnableGraph, Sink, Source }
 import akka.stream.{ ActorMaterializer, ClosedShape }
 
-object TryGraphDSLWithBroadCast extends App {
+object GraphDSLWithBroadCast extends App {
 
   implicit val actorSystem = ActorSystem("stream-with-broadcast")
   implicit val materializer = ActorMaterializer()

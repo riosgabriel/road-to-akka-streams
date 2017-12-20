@@ -7,7 +7,7 @@ import akka.actor.ActorSystem
 import akka.stream.scaladsl.{ GraphDSL, RunnableGraph, Sink, Source, ZipWith }
 import akka.stream.{ ActorMaterializer, ClosedShape, UniformFanInShape }
 
-object TryPartialGraph extends App {
+object PartialGraph extends App {
 
   implicit val system = ActorSystem("PartialGraph")
   implicit val materializer = ActorMaterializer()
